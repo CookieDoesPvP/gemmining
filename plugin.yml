@@ -1,0 +1,8 @@
+name: GemMining
+author: Fonts
+main: com.fonts.gemmining.Main
+version: 1.0
+soft-depend: [WorldGuard]
+commands:
+  gem:
+    aliases: [mp]

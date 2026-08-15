@@ -1,0 +1,66 @@
+items:
+  stone:
+    type: STONE_BUTTON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '&aStone'
+      lore:
+      - '&aTesting'
+      enchants:
+        DURABILITY: 1
+  large_stone:
+    type: STONE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '&aStone'
+      lore:
+      - '&aTesting'
+      enchants:
+        DURABILITY: 1
+  shiny_stone:
+    type: STONE_BUTTON
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '&aStone'
+      lore:
+      - '&aTesting'
+      enchants:
+        DURABILITY: 1
+  large_shiny_stone:
+    type: STONE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '&aStone'
+      lore:
+      - '&aTesting'
+      enchants:
+        DURABILITY: 1
+  gem:
+    type: INK_SACK
+    damage: 4
+    amount: 1
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '&bGem'
+      lore:
+      - &bA gem!
+      enchants:
+        DURABILITY: 1
+odds:
+  chance_for_stone: 65
+  chance_for_largestone: 20
+  chance_for_shinystone: 10
+  chance_for_largeshinystone: 5
+level-rewards:
+  50: eco give {PLAYER} 500
+  100: eco give {PLAYER} 500
+  150: eco give {PLAYER} 500
+  200: eco give {PLAYER} 500
+locations:
+- world,0,0,0,0
+ACCOUNTS:
